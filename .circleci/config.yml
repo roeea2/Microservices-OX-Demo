@@ -21,7 +21,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.4.1
         auth:
-          username: mydockerhub-user
+          username: neatsun
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
