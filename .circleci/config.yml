@@ -1,6 +1,7 @@
 version: 2.1
 jobs:
   build1:
+    run: echo "hello world" # run the `echo` command
     docker:
       - image: circleci/golang:1.15
         auth:
